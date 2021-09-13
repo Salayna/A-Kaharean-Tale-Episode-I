@@ -2,7 +2,11 @@
 name = "a_kaharean_tale_episode_one"
 version = "0.1.0"
 edition = "2018"
+authors = ["Salayna"]
+description = "A 2D zelda like made from scratch" 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sdl2 = { version = "0.31.0", features = ["bundled", "static-link"] }
+gl = { version = "0.10.0"}
